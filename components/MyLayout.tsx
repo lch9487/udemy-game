@@ -6,7 +6,7 @@ const layoutStyle = {
     border: '1px solid #DDD'
 };
 
-const Layout = props => (
+const Layout: React.FunctionComponent = props => (
     <div style={layoutStyle}>
         <Header />
         {props.children}

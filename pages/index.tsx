@@ -1,8 +1,8 @@
 import Layout from '../components/MyLayout';
 
-const Index = () => (
+const Index: React.FunctionComponent = () => (
     <Layout>    
-        <p>Hello Next.js</p>
+        <p>Hello Next.js and TypeScript</p>
     </Layout>
 );
 
